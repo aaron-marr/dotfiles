@@ -12,7 +12,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
 
-" Plug 'wuelnerdotexe/vim-enfocado'
+Plug 'wuelnerdotexe/vim-enfocado'
 " Plug 'ayu-theme/ayu-vim'
 " Plug 'morhetz/gruvbox'
 " Plug 'sonph/onehalf'
@@ -35,7 +35,7 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver'
   \ ]
 
-# Add coc-prettier extension
+" Add coc-prettier extension
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
   let g:coc_global_extensions += ['coc-prettier']
 endif
